@@ -32,7 +32,16 @@ p {
     font-size: 16px;
     font-weight: 300;
 }
-
+li {
+    list-style-type: none;
+    float: left;
+    margin:30px 0 0 30px;
+    display: list-item;
+}
+.social-list {
+    display: block;
+    padding: 0 auto 0 auto;
+}
 
 /*=================================================================
                             HOME
@@ -266,5 +275,13 @@ p {
 }
 
 
+/*=================================================================
+                            OUR TEAM
 
-
+==================================================================*/
+.team-member {
+    padding-left: 30px;
+}
+.owl-dots {
+    padding-top: 20px;
+}
