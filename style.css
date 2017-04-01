@@ -280,8 +280,21 @@ li {
 
 ==================================================================*/
 .team-member {
-    padding-left: 30px;
+    margin: 0 30px;
+}
+.team-member-info {
+    padding: 10px 0 30px 0;
 }
 .owl-dots {
     padding-top: 20px;
+}
+
+.team-member-name {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding-top: 20px;
+}
+.team-member-designation {
+    color: #34c6d3;
 }
