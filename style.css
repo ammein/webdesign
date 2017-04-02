@@ -337,6 +337,10 @@ h4.team-member-designation {
     color: #34c6d3;
 }
 
+.icon-white i {
+    color: #fff;
+}
+
 
 /*=================================================================
                            TESTIMONIALS
@@ -457,5 +461,105 @@ ul.pricing-spec li p {
 }
 
 .pricing-box-lg ul.pricing-spec li p {
+    color: #fff;
+}
+
+
+/*=================================================================
+                           STATS
+
+==================================================================*/
+
+#stats-cover {
+    background-image: url(img/computer-monkey.jpg);
+}
+
+#stats .content-box {
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+#stats-item {
+    padding: 100px 0;
+}
+
+.stats-item i {
+    color: #34c6d3;
+}
+
+.stats-item h2 {
+    color: #fff;
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 1px;
+}
+
+.stats-item p {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 0;
+}
+
+
+/*=================================================================
+                           CLIENTS
+
+==================================================================*/
+
+.client {
+    padding: 10px;
+    margin: 0;
+    max-width: 200px;
+}
+
+
+/*=================================================================
+                           CONTACT
+
+==================================================================*/
+
+footer {
+    background-color: #41464b;
+    padding-top: 30px;
+    border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h3,
+#contact-right h3 {
+    color: #fff;
+    font-size: 27px;
+    font-weight: 700;
+}
+
+#contact-left p {
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+#contact-info {
+    background-image: url(img/world.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
+}
+
+address {
+    color: #fff;
+}
+
+address strong,
+#phone-fax-email strong {
+    letter-spacing: 1px;
+}
+
+form .form-control {
+    background: transparent;
+    border-radius: 0;
+    border-color: #fff;
+    font-size: 17px;
+    font-weight: 300;
+    padding: 8px 16px;
+    margin-bottom: 20px;
     color: #fff;
 }
