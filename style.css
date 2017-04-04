@@ -119,6 +119,16 @@ p {
     color: #fff;
 }
 
+.btn-back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 22px;
+    padding: 3px 15px;
+    border-radius: 0;
+    display: none;
+}
+
 
 /*=================================================================
                             ANIMATION (Generic)
@@ -611,20 +621,18 @@ form .form-control {
 }
 
 
-
 /*=================================================================
                            NAVIGATION
 
 ==================================================================*/
 
-
 .navbar {
     padding: 20px 0;
-    transition:all .5s ease-in-out;
+    transition: all .5s ease-in-out;
 }
 
 .vesco-top-nav {
-    background: rgba(0,0,0,0.7);
+    background: rgba(0, 0, 0, 0.7);
     padding: 7px 0;
 }
 
@@ -636,7 +644,7 @@ form .form-control {
     float: right;
 }
 
-.navbar-nav > li > a {
+.navbar-nav>li>a {
     color: #fff;
     font-size: 15px;
     text-transform: uppercase;
@@ -644,16 +652,16 @@ form .form-control {
     font-weight: 700;
 }
 
-.navbar-nav > li > a:hover,
-.navbar-nav > li > a:focus {
-    background:none;
+.navbar-nav>li>a:hover,
+.navbar-nav>li>a:focus {
+    background: none;
     color: #34c6d3;
 }
 
 .navbar-toggle {
-    background: rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.1);
     border: 1px solid #fff;
-    border-radius:0;
+    border-radius: 0;
 }
 
 .navbar-toggle .icon-bar {
@@ -664,23 +672,9 @@ form .form-control {
     max-height: none !important;
 }
 
-.vesco-top-nav ul.navbar-nav > li.active > a {
+.vesco-top-nav ul.navbar-nav>li.active>a {
     color: #34c6d3;
     -webkit-transition: all 1s cubic-bezier(.25, .1, .43, .71);
     -o-transition: all 1s cubic-bezier(.25, .1, .43, .71);
     transition: all 1s cubic-bezier(.25, .1, .43, .71);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -87,29 +87,50 @@ $(function () {
 ==================================================================*/
 
 // Show//Hide transparent black navigation
-$(function(){
-    
-    $(window).scroll(function(){
-        
-        if($(this).scrollTop() < 200) {
-            
+$(function () {
+
+    $(window).scroll(function () {
+
+        if ($(this).scrollTop() < 200) {
+
             //hide nav
             $("nav").removeClass("vesco-top-nav");
-            
-        }   else {
-            
+            $("#back-to-top").fadeOut();
+
+        } else {
+
             //show navigation bar
             $("nav").addClass("vesco-top-nav");
-            
+            $("#back-to-top").fadeIn();
+
         }
-        
-        
+
+
     });
-    
-    
+
+
 });
 
+/*=================================================================
+                        SMOOTH SCROLLING
 
+==================================================================*/
 
+$(function () {
 
+    $("a.smooth-scroll").click(function (event) {
 
+        event.preventDefault();
+
+        // get/return id like #about, #work, #team and etc
+        var section = $(this).attr("href");
+
+        $('html,body').animate({
+
+            scrollTop: $(section).offset().top - 64
+
+        }, 1250, "easeInOutExpo");
+
+    });
+
+});
