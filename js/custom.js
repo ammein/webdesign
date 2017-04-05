@@ -75,7 +75,41 @@ $(function () {
         autoplay: true,
         smartSpeed: 700,
         loop: true,
-        autoplayHoverPause: true
+        autoplayHoverPause: true,
+        responsive : {
+            
+            //breakpoint from 0 up
+            0 : {
+                
+                items:1
+                
+            },
+            
+            //breakpoint from 400 up
+            400 : {
+                
+                items:3
+                
+                
+            },
+            
+            
+            //breakpoint from 768 up
+            768 : {
+                
+                items:5
+                
+            },
+            
+            
+            //breakpoint from 992 up
+            992 : {
+                
+                items:6
+                
+            }
+            
+        }
 
     });
 });
