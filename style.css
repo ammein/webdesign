@@ -136,18 +136,24 @@ p {
 ==================================================================*/
 
 #home-cover {
-    animation-delay: .1s;
-    animation-duration: .5s;
+    -webkit-animation-delay: .1s;
+            animation-delay: .1s;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
 }
 
 #home-heading {
-    animation-delay: .5s;
-    animation-duration: .5s;
+    -webkit-animation-delay: .5s;
+            animation-delay: .5s;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
 }
 
 #home-btn {
-    animation-delay: 1s;
-    animation-duration: .5s;
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s;
+    -webkit-animation-duration: .5s;
+            animation-duration: .5s;
 }
 
 
@@ -275,11 +281,15 @@ p {
 }
 
 .img-wrapper img {
+    transition: -webkit-transform .5s ease;
     transition: transform .5s ease;
+    transition: transform .5s ease, -webkit-transform .5s ease;
 }
 
 .img-wrapper img:hover {
-    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+            transform: scale(1.5);
 }
 
 
@@ -410,6 +420,11 @@ h4.team-member-designation {
 }
 
 .testimonial-author p strong {
+    color: #fff;
+    display: block;
+}
+
+.testimonial-author span {
     color: #fff;
     display: block;
 }
@@ -558,6 +573,10 @@ address {
     color: #fff;
 }
 
+address strong {
+    font-size: 16px;
+}
+
 address strong,
 #phone-fax-email strong {
     letter-spacing: 1px;
@@ -629,6 +648,7 @@ form .form-control {
 .navbar {
     padding: 20px 0;
     transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
 }
 
 .vesco-top-nav {
